@@ -42,13 +42,15 @@ sum-1/
 │
 ├── data/
 │   ├── raw/                 # Original NHS dataset
-│   └── processed/          # Cleaned and transformed datasets
+│   └── processed/
+    └── v1/             # Cleaned and transformed datasets (versioned)
 │
 ├── jupyter_notebooks/
 │   └── Notebook_Template.ipynb   # Main analysis notebook
 │
 ├── reports/
-│   └── female_autism_dashboard.html   # Interactive Plotly dashboard
+│   └── v1/
+│       └── female_autism_dashboard.html   # Interactive Plotly dashboard (versioned)
 │
 ├── requirements.txt
 ├── README.md
@@ -82,8 +84,26 @@ pip install -r requirements.txt
 4) Open the notebook:
 jupyter notebook jupyter_notebooks/Notebook_Template.ipynb
 5) Run all cells from top to bottom. The interactive dashboard will be saved to:
-reports/female_autism_dashboard.html
+reports/v1/female_autism_dashboard.html
 Open this file in any web browser to view the interactive plot.
+
+
+## Where to Find Key Project Outputs
+
+- **Main analysis notebook:**  
+  `jupyter_notebooks/Notebook_Template.ipynb`
+
+- **Raw dataset:**  
+  `data/raw/`
+
+- **Processed, versioned dataset:**  
+  `data/processed/v1/female_autism_cleaned_v1.csv`
+
+- **Interactive dashboard (HTML):**  
+  `reports/v1/female_autism_dashboard.html`  
+  (Open this file in a web browser to explore the interactive visualisation.)
+
+These outputs represent the final artefacts of the ETL pipeline, analysis, and visualisation stages of the project.
 
 
 ## Outputs
