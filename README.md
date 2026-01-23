@@ -66,6 +66,13 @@ sum-1/
 - VS Code: development environment
 
 
+## Use of Generative AI (GenAI) in this Project
+
+GenAI (CoPilot) was used to support the workflow:
+1. **Code support and debugging:** assisting with troubleshooting environment issues (VS Code/Jupyter/Plotly rendering) and improving the reliability of file outputs (e.g., ensuring folders exist before writing HTML).
+2. **Data storytelling and communication:** refining the project title, motivation, objectives, and writing clear interpretations of each chart for a non-technical audience.
+
+
 ## How to Run the Project
 
 1) Clone or download the repository
