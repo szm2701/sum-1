@@ -3,17 +3,20 @@
 # Exploring Female Autism Referral Trends in England
 An NHS Open Data Analysis
 
+
 ## Project Overview
 
 This project analyses publicly available NHS England autism statistics to explore female autism referral trends over time. It focuses on identifying temporal patterns and age-group differences in referrals and open cases, using an end-to-end data analysis pipeline and both static and interactive visualisations.
 
 The project was developed as a custom data analysis capstone and demonstrates structured data extraction, cleaning, transformation, exploratory analysis, and visual communication.
 
+
 ## Project Motivation
 
 Autism has historically been under-recognised in females, partly due to diagnostic criteria and clinical understanding being shaped around male presentations. This has contributed to delayed or missed diagnoses, with significant consequences for wellbeing, education, and access to support.
 
 By analysing NHS open data on autism referrals, this project aims to examine whether female referral patterns show distinct trends over time and across age groups, and to consider what these trends may suggest about visibility, service demand, and diagnostic pathways within England.
+
 
 ## Objectives
 
@@ -22,6 +25,16 @@ By analysing NHS open data on autism referrals, this project aims to examine whe
 - Examine age-group patterns within female referral data
 - Develop static and interactive visualisations to communicate insights
 - Critically reflect on limitations and ethical considerations when working with public healthcare data
+
+
+## Project Hypotheses
+
+H1: Female suspected autism referrals show an overall increasing trend over time, indicating rising demand and/or improved recognition.
+
+H2: The number of females with open suspected autism referrals remains consistently higher than new referrals, suggesting backlog pressure within diagnostic pathways.
+
+H3: Age-group patterns differ within females, with 0–17 and 18+ showing distinct referral volumes, supporting the need for age-targeted service planning.
+
 
 ## Project Structure 
 
